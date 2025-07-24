@@ -153,12 +153,9 @@
 //* 6.
 // let sum=0;
 // for(i=1;i<=100;i++){
-//     if(i%2==0){
-
-//     }else{
-//          sum=sum+i;
-//     console.log(sum);
-//     }   
+//     if(i%2!=0){
+//           sum = sum + i
+//     } 
 // }
 
 //* 7.
@@ -169,3 +166,26 @@
 //     }   
 // }
 // console.log(count);
+
+//*
+// let num = 12;
+// let endingCondtion = Math.ceil(num/2);
+// for(let i = 1;i<=endingCondtion;i++){
+//     if(num%i == 0){
+//         console.log(i);
+//     }
+// }
+// console.log(12);
+// console.log("End");
+
+//* 
+let num = 36;
+let sqrt = Math.sqrt(num);
+for(let i=1;i<=sqrt;i++){
+    if(num%i==0){
+        console.log(i);
+    if(num/i !=i){
+        console.log(num/i);
+}        
+    }
+}
