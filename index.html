@@ -7,14 +7,16 @@
             }
         </style>
     </head>
+    
     <body>
        <center> <h1>Tandoori Fry</h1></center>
        <hr>
         <p><strong>Tandoori: The Flavour of the Clay Oven</strong></p>
 
 <p>Tandoori is a traditional <i> North Indian cooking style</i> where marinated meats, paneer, or vegetables are cooked in a clay oven called a tandoor. The intense heat and open flame give the food a signature smoky flavor and charred texture. Commonly marinated in spiced yogurt blends, tandoori dishes are bold, aromatic, and deeply satisfying.</p>
- <hr>  <center> <img src="tandoori_files/tandoori.webp"  width="545" alt="Chicken Tandoori" ></center>
- <a href="tandoori2.jpg" target="_blank">Click here for best Tandoori</a>  
+ <hr>  <center>  <img src="/tandoori2.jpg"  width="545" alt="Chicken Tandoori" style="border: solid;"></center>
+ <button id="toggleTandooriBtn" style="margin:16px 0; padding:10px 24px; border-radius:8px; border:none; background:#b85c00; color:#fff; font-size:1em; cursor:pointer;">Show Best Tandoori</button>
+ <img id="bestTandooriImg" src="/tandoori2.jpg" alt="Best Tandoori" style="display:none; margin:20px auto; max-width:90vw; border:6px solid #fff; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.13);">
  <h3 style="color:brown">Types of Tandoori</h3>
  <ul>
 <li>Irani </li>
@@ -26,13 +28,31 @@
     </th>
     <th>Heading2</th>
     <th>Heading3</th>
+    <th>Heading4</th>
     <TR><td>Content1</td>
 
     <td>Content2</td>
    <td> Content3</td>
-   
+   <td>Content4
+   </td>
 </table>
-<h1>Heading Update</h1>
+<!-- <h1>Heading Update</h1> -->
+ <!-- <script src="script.js"></script> -->
+ <!-- <script>
+   // Toggle image show/hide on button click
+   const btn = document.getElementById('toggleTandooriBtn');
+   const img = document.getElementById('bestTandooriImg');
+   btn.onclick = function() {
+     if (img.style.display === 'block') {
+       img.style.display = 'none';
+       btn.textContent = 'Show Best Tandoori';
+     } else {
+       img.style.display = 'block';
+       btn.textContent = 'Hide Best Tandoori';
+     }
+   };
+ </script> -->
+ <script src="Script practice.js"></script>
 </body>
 
 </html>
