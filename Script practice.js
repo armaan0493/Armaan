@@ -179,13 +179,65 @@
 // console.log("End");
 
 //* 
-let num = 36;
-let sqrt = Math.sqrt(num);
-for(let i=1;i<=sqrt;i++){
-    if(num%i==0){
-        console.log(i);
-    if(num/i !=i){
-        console.log(num/i);
-}        
-    }
+// let num = 36;
+// let sqrt = Math.sqrt(num);
+// for(let i=1;i<=sqrt;i++){
+//     if(num%i==0){
+//         console.log(i);
+//     if(num/i !=i){
+//         console.log(num/i);
+//         }        
+//     }
+// }
+
+//* COUNT DIGIT && REVERSE \\
+// let num = 1236;
+// count = 0;
+// let rev = 0;
+// let originalNumber = num;
+// while(num > 0){
+//     let lastDigit = num%10;
+//     rev = rev * 10 + lastDigit;
+//     num = Math.floor(num/10);
+//     count++
+// }
+// if(originalNumber == rev){
+//     console.log("Palindrome Number");
+//     }else{
+//         console.log("Not a Plaindrome Number");       
+//     }
+//     console.log("Original Number",originalNumber);
+//     console.log();
+    
+// console.log(rev);
+
+// console.log(count);
+
+//* Sum of Digits \\
+// let num = 456;
+// let sum = 0;
+// while(num > 0){
+//     let lastDigit=num%10;
+//     sum = sum + lastDigit;
+//     num = Math.floor(num/10);
+// }
+// console.log(sum);
+
+//* ARMSTRONG NUMBER \\
+let num = 153;
+let sumOfCubes = 0;
+let originalNumber = num;
+while(num > 0){
+    let lastDigit = num%10;
+    // rev = rev * 10 + lastDigit;
+    sumOfCubes=sumOfCubes+lastDigit**3;
+    num = Math.floor(num/10);
 }
+ if(originalNumber==sumOfCubes)
+{
+    console.log("Armstrong Number");
+    }else{
+        console.log("Not an Armstrong Number",originalNumber);       
+    }
+    console.log("Original Number",originalNumber);
+console.log("Sum of Cubes",sumOfCubes);
