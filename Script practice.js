@@ -224,20 +224,40 @@
 // console.log(sum);
 
 //* ARMSTRONG NUMBER \\
-let num = 153;
-let sumOfCubes = 0;
-let originalNumber = num;
-while(num > 0){
-    let lastDigit = num%10;
-    // rev = rev * 10 + lastDigit;
-    sumOfCubes=sumOfCubes+lastDigit**3;
-    num = Math.floor(num/10);
-}
- if(originalNumber==sumOfCubes)
-{
-    console.log("Armstrong Number");
-    }else{
-        console.log("Not an Armstrong Number",originalNumber);       
-    }
-    console.log("Original Number",originalNumber);
-console.log("Sum of Cubes",sumOfCubes);
+// let num = 153;
+// let sumOfCubes = 0;
+// let originalNumber = num;
+// while(num > 0){
+//     let lastDigit = num%10;
+//     // rev = rev * 10 + lastDigit;
+//     sumOfCubes=sumOfCubes+lastDigit**3;
+//     num = Math.floor(num/10);
+// }
+//  if(originalNumber==sumOfCubes)
+// {
+//     console.log("Armstrong Number");
+//     }else{
+//         console.log("Not an Armstrong Number",originalNumber);       
+//     }
+//     console.log("Original Number",originalNumber);
+// console.log("Sum of Cubes",sumOfCubes);
+
+let bio = "Hello World";
+console.log(bio.length);
+console.log(bio.charAt(4));
+console.log(bio.indexOf("e"));
+console.log(bio.toUpperCase());
+console.log(bio.toLowerCase());
+console.log(bio.lastIndexOf("H"));
+console.log(bio.slice(7));
+
+
+
+
+
+
+
+
+
+
+
