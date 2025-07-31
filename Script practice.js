@@ -241,15 +241,21 @@
 //     }
 //     console.log("Original Number",originalNumber);
 // console.log("Sum of Cubes",sumOfCubes);
+// * STRING \\||
 
-let bio = "Hello World";
-console.log(bio.length);
-console.log(bio.charAt(4));
-console.log(bio.indexOf("e"));
-console.log(bio.toUpperCase());
-console.log(bio.toLowerCase());
-console.log(bio.lastIndexOf("H"));
-console.log(bio.slice(7));
+// let bio = "Hello World";
+// console.log(bio.length);
+// console.log(bio.charAt(4));
+// console.log(bio.indexOf("e"));
+// console.log(bio.toUpperCase());
+// console.log(bio.toLowerCase());
+// console.log(bio.lastIndexOf("H"));
+// console.log(bio.slice(7));
+// console.log(bio.split(""));
+// console.log(bio.substring(6));
+// console.log(bio.replace("Hello","HI"));
+// console.log(bio.replaceAll("l","1"));
+// console.log(bio.repeat(2));
 
 
 
@@ -258,6 +264,22 @@ console.log(bio.slice(7));
 
 
 
+let Password = prompt ("Enter your Password")
+if(Password.length >= 8 ){
+    if(Password.includes("0") || Password.includes("1") || Password.includes("2") ||Password.includes("3") ||Password.includes("4") ||Password.includes("5") ||Password.includes("6") ||Password.includes("7") ||Password.includes("8") ||Password.includes("9")){   
+    if(Password.includes("@") || Password.includes ("#")){
+        console.log("Entered Password is accepted");    
+    }else{
+            console.log("Password must contain atleast one speacial character");
+            
+        }
+    }else{
+        console.log("Password should contain atleast one number"); 
+    }
+}else{
+console.log("Password should contain atleast 8 characters");
+ }
+   
 
 
 
