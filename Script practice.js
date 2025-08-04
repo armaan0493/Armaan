@@ -256,30 +256,55 @@
 // console.log(bio.replace("Hello","HI"));
 // console.log(bio.replaceAll("l","1"));
 // console.log(bio.repeat(2));
+// console.log(bio.trim());
+// console.log(bio.length);
+// console.log(bio.trimEnd().length);
 
 
 
 
 
-
-
-
-let Password = prompt ("Enter your Password")
-if(Password.length >= 8 ){
-    if(Password.includes("0") || Password.includes("1") || Password.includes("2") ||Password.includes("3") ||Password.includes("4") ||Password.includes("5") ||Password.includes("6") ||Password.includes("7") ||Password.includes("8") ||Password.includes("9")){   
-    if(Password.includes("@") || Password.includes ("#")){
-        console.log("Entered Password is accepted");    
-    }else{
-            console.log("Password must contain atleast one speacial character");
+// let Password = prompt ("Enter your Password")
+// if(Password.length >= 8 ){
+//     if(Password.includes("0") || Password.includes("1") || Password.includes("2") ||Password.includes("3") ||Password.includes("4") ||Password.includes("5") ||Password.includes("6") ||Password.includes("7") ||Password.includes("8") ||Password.includes("9")){   
+//     if(Password.includes("@") || Password.includes ("#")){
+//         console.log("Entered Password is accepted");    
+//     }else{
+//             console.log("Password must contain atleast one speacial character");
             
-        }
-    }else{
-        console.log("Password should contain atleast one number"); 
-    }
-}else{
-console.log("Password should contain atleast 8 characters");
- }
+//         }
+//     }else{
+//         console.log("Password should contain atleast one number"); 
+//     }
+// }else{
+// console.log("Password should contain atleast 8 characters");
+//  }
    
+//* Function \\\||
 
+// function printName(){
+// console.log("Hello my name is Armaan");
+// }
+// printName();   
 
+// function addTwoNumbers(number1,number2) {
+//     return number1 + number2;
+// }
+// let addedNumber = addTwoNumbers(5,10);
+// let addedNumber1 = addTwoNumbers(-5,10);
+// console.log(addedNumber);
+// console.log(addedNumber1);
 
+//  function subtractThreeNumbers(no1,no2,no3) {
+// return no1-no2-no3;
+//  }
+// let subtractedNumber = subtractThreeNumbers(10,2,7);    
+//  console.log(subtractedNumber);
+ 
+function tableOfNumber(a,i){
+    console.log(a,"x",i,"=",a*i);   
+}
+for(let i = 1;i<=10;i++){
+tableOfNumber(7,i)
+}
+    
