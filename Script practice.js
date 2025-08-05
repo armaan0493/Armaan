@@ -301,10 +301,54 @@
 // let subtractedNumber = subtractThreeNumbers(10,2,7);    
 //  console.log(subtractedNumber);
  
-function tableOfNumber(a,i){
-    console.log(a,"x",i,"=",a*i);   
+// function tableOfNumber(a,i){
+//     console.log(a,"x",i,"=",a*i);   
+// }
+// for(let i = 1;i<=10;i++){
+// tableOfNumber(7,i)
+//{
+
+// function getName() {
+//     return "Armaan";
+// }
+
+// let name = getName();
+// console.log(name);
+
+// function toUpperCaseLetters(value) {
+//     return value.toUpperCase();
+// }
+
+// let capitalLetters = toUpperCaseLetters("armaan")
+// console.log(capitalLetters);
+
+// function multiplyingTwoNumbers(a,b){
+//     return a*b;
+// }
+// let product = multiplyingTwoNumbers(10,4);
+// console.log(product);
+
+// function factorial(N) {
+//     let result = 1;
+//     for(let i=1;i<=N;i++){
+//         result = result * i;
+//     }
+//     return result;
+// }
+// let facto = factorial(6);
+// console.log(facto);
+
+//* Prime \\||
+function isPrime(n) {
+    if(n<=1){
+        return false;
+    }
+    for (let i = 2;i<n;i++){
+        if(n%i == 0){
+            return false;
+        }
+    }
+    return true;
 }
-for(let i = 1;i<=10;i++){
-tableOfNumber(7,i)
-}
-    
+let primeHai = isPrime(5);
+console.log(primeHai);
