@@ -339,16 +339,67 @@
 // console.log(facto);
 
 //* Prime \\||
-function isPrime(n) {
-    if(n<=1){
-        return false;
-    }
-    for (let i = 2;i<n;i++){
-        if(n%i == 0){
-            return false;
-        }
-    }
-    return true;
+// function isPrime(n) {
+//     if(n<=1){
+//         return false;
+//     }
+//     for (let i = 2;i<n;i++){
+//         if(n%i == 0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// let primeHai = isPrime(5);
+// console.log(primeHai);
+
+
+// function armstrong(num) {
+//     let originalNumber = num;
+//     let sumOfCubes = 0;
+//     while (num>0) {
+//         let lastDigit = num%10;
+//         sumOfCubes = sumOfCubes + lastDigit**3;
+//         lastDigit**3 
+//         num = Math.floor(num/10);   
+//     }
+//     if(originalNumber === sumOfCubes){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+// let a = armstrong(153);
+// console.log(a);
+
+// function palindromeNum(num){
+//     let originalNumber = num;
+//     let rev = 0;
+//     while(num>0){
+//         let lastDigit = num%10;
+//         rev = rev*10 + lastDigit;
+//         num = Math.floor(num/10);
+//     }
+    
+//     if(originalNumber === rev){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
+// let b = palindromeNum(151);
+// console.log(b);
+
+function reverseNum(num) {
+  let originalNumber = num;
+  let reverseNum = 0;
+  while (num>0) {
+    let lastDigit = num%10;
+    reverseNum = reverseNum*10 + lastDigit;
+    num = Math.floor(num/10)
+  }  
+  return reverseNum;
 }
-let primeHai = isPrime(5);
-console.log(primeHai);
+let a = reverseNum(12345);
+console.log(a);
