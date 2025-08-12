@@ -391,15 +391,67 @@
 // let b = palindromeNum(151);
 // console.log(b);
 
-function reverseNum(num) {
-  let originalNumber = num;
-  let reverseNum = 0;
-  while (num>0) {
-    let lastDigit = num%10;
-    reverseNum = reverseNum*10 + lastDigit;
-    num = Math.floor(num/10)
-  }  
-  return reverseNum;
-}
-let a = reverseNum(12345);
-console.log(a);
+// function reverseNum(num) {
+//   let originalNumber = num;
+//   let reverseNum = 0;
+//   while (num>0) {
+//     let lastDigit = num%10;
+//     reverseNum = reverseNum*10 + lastDigit;
+//     num = Math.floor(num/10)
+//   }  
+//   return reverseNum;
+// }
+// let a = reverseNum(12345);
+// console.log(a);
+
+// let nameArr = ["Armaan","Ali","Silver","PRO"];
+// let secondArr = ["Samsung","Oneplus"]
+
+// console.log(nameArr.at(2));
+// nameArr = nameArr.concat(secondArr);
+// console.log(nameArr);
+// console.log(nameArr.includes("Pro"));
+// console.log(nameArr);
+// console.log(nameArr.indexOf("Armaan"));
+// console.log(nameArr.lastIndexOf("Silver"));
+// let allElement = nameArr.join("-");
+// console.log(allElement);
+// let newName = nameArr.push("Najmu");
+// console.log(newName);
+// let poppedElement = nameArr.pop()
+// console.log(poppedElement);
+// console.log(nameArr.reverse());
+// console.log(nameArr.shift());
+// console.log(nameArr.slice(1,1));
+// console.log(nameArr.sort());
+// console.log(nameArr.some());
+// console.log(nameArr.splice(1,1));
+// console.log(nameArr);
+// console.log(nameArr.unshift("Armaan12345"));
+// console.log(nameArr);
+
+let numArr = [1,2,3,4,5,6,7,8,9,10];
+
+// function add(x,y){
+//     return x+y;
+// }
+
+// function substract(x,y){
+//     return x-y;
+// }
+
+// function operation(x,y,callbackfn){
+//     return callbackfn(x,y);
+// }
+
+// console.log(operation(10,2,substract));
+
+// numArr.forEach((x) =>{
+//     console.log(x);
+// })
+
+
+
+
+
+
