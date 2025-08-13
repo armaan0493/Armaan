@@ -444,14 +444,54 @@ let numArr = [1,2,3,4,5,6,7,8,9,10];
 //     return callbackfn(x,y);
 // }
 
-// console.log(operation(10,2,substract));
+// console.log(operation(10,2,add));
 
 // numArr.forEach((x) =>{
 //     console.log(x);
 // })
 
+// for(let element of numArr){
+//     console.log(element);
+// }
 
+// let sum = 0
+// function printElement(element){
+//     sum += element;
+// }
+// numArr.forEach(printElement)
+// console.log("Sum of numbers",sum);
 
+// function printElementWithIndex(element,index){
+//     console.log(`Element is ${element} and it's index is ${index}`);    
+// }
 
+// numArr.forEach(printElementWithIndex)
+
+// Filter
+// function isEven(x){
+//     return x %2 === 0;
+// }
+// // let evenNumber = numArr.filter(isEven)
+// let evenNumber = numArr.filter(x => x%2 == 0)
+// console.log(evenNumber);
+
+// function cubeNumber(x){
+//     return x**3;
+// }
+
+// let cubes = numArr.map(cubeNumber)
+// let cubes = numArr.map(x => x**3)
+// console.log(cubes);
+
+let student = {
+    "name" : "Armaan",
+    "age" : "18",
+    "isPassed" : true,
+    "phoneNumber" : 9833241868,
+    "subject" : ["Java","Javascript","Python"]
+}
+let s = student.subject;
+// console.log(s);
+s.filter(x => x.includes("Java")).map(x => x.toLowerCase()).forEach(x => console.log(x));
 
 
