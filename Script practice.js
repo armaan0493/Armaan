@@ -483,15 +483,26 @@ let numArr = [1,2,3,4,5,6,7,8,9,10];
 // let cubes = numArr.map(x => x**3)
 // console.log(cubes);
 
-let student = {
-    "name" : "Armaan",
-    "age" : "18",
-    "isPassed" : true,
-    "phoneNumber" : 9833241868,
-    "subject" : ["Java","Javascript","Python"]
-}
-let s = student.subject;
-// console.log(s);
-s.filter(x => x.includes("Java")).map(x => x.toLowerCase()).forEach(x => console.log(x));
+// let student = {
+//     "name" : "Armaan",
+//     "age" : "18",
+//     "isPassed" : true,
+//     "phoneNumber" : 9833241868,
+//     "subject" : ["Java","Javascript","Python"]
+// }
+// let s = student.subject;
+// // console.log(s);
+// s.filter(x => x.includes("Java")).map(x => x.toLowerCase()).forEach(x => console.log(x));
+
+// REDUCE \\ \\
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let sum = arr.reduce((prev,curr)=>{
+//     return prev+curr
+// },0)
+// console.log(sum);
+
+// let arr = [[1,2],[[[3,4],[5,6]],7,8,[9],[10]]];
+// console.log(arr.flat(3));
 
 
