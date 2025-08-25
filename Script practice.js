@@ -505,4 +505,38 @@ let numArr = [1,2,3,4,5,6,7,8,9,10];
 // let arr = [[1,2],[[[3,4],[5,6]],7,8,[9],[10]]];
 // console.log(arr.flat(3));
 
+// 1.
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// arr.forEach(arr => {
+//     console.log(arr*2);
+    
+// })
+// 4.
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let sum = arr.reduce((prev,curr)=>{
+//     return prev+curr
+// },0)
+// console.log(sum);
+
+// 2.
+// let arr = [1,15,3,20,5,26,47,8,9,10];
+// let number = arr.filter(arr => arr > 10);
+// console.log(number);
+
+// 6.
+// let arr = [10,12,45,131,67,94,3]
+// let givenNumber = arr.some(arr => arr > 100)
+// console.log(givenNumber);
+
+// 7. filter with objects
+// console.log("\n7. filter with objects:");
+// const people = [
+//     { name: 'John', age: 28 },
+//     { name: 'Jane', age: 34 },
+//     { name: 'Joe', age: 20 }
+// ];
+// const olderThan30 = people.filter(person => person.age > 30);
+// console.log(olderThan30);
+
 
